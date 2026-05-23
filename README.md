@@ -13,3 +13,58 @@ Product Analytics,
 Marketing Analytics,
 Operations Analytics.
 ####
+
+##
+FOUNDATION
+│
+├── SQL Basics
+│   ├── SELECT
+│   ├── WHERE
+│   ├── ORDER BY
+│   ├── LIMIT
+│   └── DISTINCT
+│
+├── Filtering & Conditions
+│   ├── AND / OR / NOT
+│   ├── IN
+│   ├── BETWEEN
+│   ├── LIKE
+│   └── IS NULL
+│
+├── Aggregation
+│   ├── COUNT
+│   ├── SUM
+│   ├── AVG
+│   ├── MIN / MAX
+│   └── GROUP BY
+│
+├── Intermediate SQL
+│   ├── JOINS
+│   ├── CASE WHEN
+│   ├── Subqueries
+│   ├── CTEs
+│   └── HAVING
+│
+├── Advanced SQL
+│   ├── Window Functions
+│   ├── RANK / DENSE_RANK
+│   ├── ROW_NUMBER
+│   ├── LEAD / LAG
+│   ├── PARTITION BY
+│   └── Performance Optimization
+│
+├── Real Business SQL
+│   ├── Sales Analysis
+│   ├── Customer Retention
+│   ├── Revenue Tracking
+│   ├── KPI Dashboards
+│   └── Funnel Analysis
+│
+└── Portfolio Projects
+    ├── E-commerce Analysis
+    ├── Netflix Data
+    ├── Finance Dashboard
+    ├── HR Analytics
+    └── Marketing Campaign Analysis
+##
+    
