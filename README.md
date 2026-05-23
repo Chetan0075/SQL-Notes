@@ -14,7 +14,7 @@ Marketing Analytics,
 Operations Analytics.
 ####
 
-##
+
 FOUNDATION
 │
 ├── SQL Basics
@@ -66,5 +66,5 @@ FOUNDATION
     ├── Finance Dashboard
     ├── HR Analytics
     └── Marketing Campaign Analysis
-##
+
     
