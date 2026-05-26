@@ -1,4 +1,3 @@
-
 -- CREATE Database CRX_LTD;
 
 use crx_ltd ;
@@ -10,5 +9,24 @@ use crx_ltd ;
 --       salary int
 -- );
       
-Select * FROM employees;      
+-- Insert into employees
+-- values (2601, "lucky", 21, 35000);
 
+-- SELECT name, salary
+-- FROM employees;
+
+SELECT *
+FROM employees
+WHERE age = '21';
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
