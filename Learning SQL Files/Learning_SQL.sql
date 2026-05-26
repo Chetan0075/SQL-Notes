@@ -20,20 +20,30 @@ use crx_ltd ;
 -- (2605, "om karadwar", 21, 20000),
 -- (2604,"om", 21, 10000);
 
+-- ALTER TABLE employees ADD COLUMN skill VARCHAR (50);
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
 SELECT * FROM employees;
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
