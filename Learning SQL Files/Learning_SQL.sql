@@ -27,13 +27,12 @@ use crx_ltd ;
 -- ("DATA ANALYSIS");
 
 -- UPDATE employees
--- SET skill = "SAP"
--- WHERE name = "lucky";
-
-
--- UPDATE employees
 -- SET skill = "N/A"
 -- WHERE name = "om karadwar";
+
+-- DELETE FROM employees
+-- WHERE age is NULL ;
+
 
 
 
