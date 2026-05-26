@@ -26,14 +26,14 @@ use crx_ltd ;
 -- ("SAP"),
 -- ("DATA ANALYSIS");
 
-UPDATE employees
-SET skill = "SAP"
-WHERE name = "lucky";
+-- UPDATE employees
+-- SET skill = "SAP"
+-- WHERE name = "lucky";
 
 
-UPDATE employees
-SET skill = "N/A"
-WHERE name = "om karadwar";
+-- UPDATE employees
+-- SET skill = "N/A"
+-- WHERE name = "om karadwar";
 
 
 
