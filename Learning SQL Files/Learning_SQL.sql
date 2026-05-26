@@ -31,7 +31,9 @@ SET skill = "SAP"
 WHERE name = "lucky";
 
 
-
+UPDATE employees
+SET skill = "N/A"
+WHERE name = "om karadwar";
 
 
 
