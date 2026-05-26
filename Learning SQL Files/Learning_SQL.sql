@@ -15,9 +15,12 @@ use crx_ltd ;
 -- SELECT name, salary
 -- FROM employees;
 
-SELECT *
-FROM employees
-WHERE age = '21';
+-- Insert into employees
+-- values 
+-- (2605, "om karadwar", 21, 20000),
+-- (2604,"om", 21, 10000);
+
+SELECT * FROM employees;
 
 
 
@@ -26,6 +29,10 @@ WHERE age = '21';
 
 
 
+
+
+
+ 
  
  
  
