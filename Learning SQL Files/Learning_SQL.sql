@@ -22,8 +22,13 @@ use crx_ltd ;
 
 -- ALTER TABLE employees ADD COLUMN skill VARCHAR (50);
 
+-- Insert into employees (skill) VALUES
+-- ("SAP"),
+-- ("DATA ANALYSIS");
 
-
+UPDATE employees
+SET skill = "SAP"
+WHERE name = "lucky";
 
 
 
