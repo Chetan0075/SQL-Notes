@@ -47,16 +47,35 @@ USE retail_intelligence;
 -- (10, 'LED Desk Lamp', 'Electronics', 1299.00);
 
 
--- select * from products;
+-- create table orders (
+-- order_id int primary key,
+-- customer_id int not null,
+-- order_date date not null,
+-- foreign key(customer_id) references customers(customer_id)
+-- );
+
+
+-- insert into orders(order_id, customer_id, order_date)
+-- values
+-- (101, 1, '2024-05-01'),
+-- (102, 2, '2024-05-02'),
+-- (103, 3, '2024-05-03'),
+-- (104, 1, '2024-05-05'),
+-- (105, 5, '2024-05-06'),
+-- (106, 4, '2024-05-08'),
+-- (107, 2, '2024-05-09'),
+-- (108, 6, '2024-05-10'),
+-- (109, 7, '2024-05-12'),
+-- (110, 8, '2024-05-14'),
+-- (111, 9, '2024-05-15'),
+-- (112, 10, '2024-05-16'),
+-- (113, 3, '2024-05-18'),
+-- (114, 5, '2024-05-20'),
+-- (115, 1, '2024-05-22');
 
 
 
 
-
-
-
-
-
-
-
-
+select * from customers;
+select * from products;
+select * from orders;
