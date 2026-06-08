@@ -22,14 +22,11 @@ use retail_intelligence;
 -- SELECT * FROM customers WHERE city = 'Delhi' OR city = 'Chennai';    
     
     
-    
-    
-    
-    
-    
-    
-    
-    
+-- select * from products where price < 1000 and price > 200;
+-- select name from customers where name like 'S%';
+-- select * from customers where city in ('pune','mumbai','delhi')    
+-- select * from products where price < 1000 ;    
+-- select distinct category from products ;    
     
     
     
