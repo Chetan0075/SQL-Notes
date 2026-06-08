@@ -30,13 +30,23 @@ use retail_intelligence;
     
     
     
-    
-    
-    
-    
-    
-    
-    
+-- select count(*) as total_customers from customers ;    
+-- select avg(price) as avg_price from products ;     
+-- select min(price) from products ;
+-- select max(price) from products ;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     
     
     
