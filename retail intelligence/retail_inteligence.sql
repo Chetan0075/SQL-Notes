@@ -74,8 +74,48 @@ USE retail_intelligence;
 -- (115, 1, '2024-05-22');
 
 
+-- create table order_details(
+-- order_detail_id int primary key,
+-- order_id int not null,
+-- product_id int not null,
+-- quantity int not null,
+
+-- foreign key(order_id) references orders (order_id),
+-- foreign key(product_id) references products (product_id)
+-- );
+
+
+-- insert into order_details (order_detail_id, order_id, product_id, quantity)
+-- values
+-- (1,101,1,2),
+-- (2,101,3,1),
+-- (3,102,2,1),
+-- (4,102,8,1),
+-- (5,103,4,1),
+-- (6,104,6,5),
+-- (7,104,7,3),
+-- (8,105,5,1),
+-- (9,106,10,2),
+-- (10,107,1,1),
+-- (11,107,9,2),
+-- (12,108,8,1),
+-- (13,109,2,1),
+-- (14,109,3,2),
+-- (15,110,4,1),
+-- (16,111,6,4),
+-- (17,112,10,1),
+-- (18,113,5,1),
+-- (19,113,8,2),
+-- (20,114,1,3),
+-- (21,115,2,1),
+-- (22,115,10,1);
+
+
+
+
 
 
 select * from customers;
 select * from products;
 select * from orders;
+select * from order_details;
