@@ -37,9 +37,10 @@ use retail_intelligence;
  
  
  
+-- select count(order_id) from orders ; 
+-- select sum(quantity) from order_details; 
  
- 
- 
+
  
  
  
