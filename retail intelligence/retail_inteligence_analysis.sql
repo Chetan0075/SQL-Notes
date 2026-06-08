@@ -12,3 +12,38 @@ use retail_intelligence;
 -- select * from customers where city = 'mumbai';
 -- select * from products where price < 500 ;
 -- select * from products order by price asc;
+
+-- select distinct city from customers;
+-- select distinct name from customers;
+-- SELECT * FROM customers WHERE name LIKE 'c%';
+-- SELECT * FROM products WHERE price BETWEEN 500 AND 1000;    
+-- SELECT * FROM customers WHERE city IN ('Pune', 'Mumbai');    
+-- SELECT * FROM products WHERE category = 'Electronics' AND price > 1000;    
+-- SELECT * FROM customers WHERE city = 'Delhi' OR city = 'Chennai';    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
