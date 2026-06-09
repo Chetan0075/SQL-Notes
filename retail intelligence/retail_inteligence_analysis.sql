@@ -42,7 +42,11 @@ use retail_intelligence;
  
 
  
- 
+select customers.customer_id,
+		customers.name,
+        orders.order_id,
+        orders.order_date
+from customers inner join orders on customers.customer_id = orders.customer_id; 
  
  
  
