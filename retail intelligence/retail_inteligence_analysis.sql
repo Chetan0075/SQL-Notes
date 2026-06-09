@@ -1,4 +1,6 @@
-use retail_intelligence;
+-- customers (1) → (many) orders (1) → (many) order_details → products
+
+-- use retail_intelligence;
 
 -- select * from customers;
 -- select name , city from customers ;
