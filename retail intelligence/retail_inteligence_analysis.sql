@@ -99,7 +99,18 @@ use retail_intelligence;
 -- GROUP BY p.category;   
     
     
-    
+-- SELECT 
+--     c.name,
+--     SUM(od.quantity * p.price) AS total_spent
+-- FROM customers c
+-- JOIN orders o 
+--     ON c.customer_id = o.customer_id
+-- JOIN order_details od 
+--     ON o.order_id = od.order_id
+-- JOIN products p 
+--     ON od.product_id = p.product_id
+-- GROUP BY c.name
+-- HAVING SUM(od.quantity * p.price) > 5000;
     
     
     
