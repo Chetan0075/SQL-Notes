@@ -80,9 +80,23 @@ use retail_intelligence;
 -- GROUP BY c.name; /  
     
     
+-- SELECT 
+--     p.product_name,
+--     SUM(od.quantity) AS total_sold
+-- FROM products p
+-- JOIN order_details od 
+--     ON p.product_id = od.product_id
+-- GROUP BY p.product_name;
     
     
     
+--  SELECT 
+--     p.category,
+--     SUM(od.quantity * p.price) AS category_revenue
+-- FROM products p
+-- JOIN order_details od 
+--     ON p.product_id = od.product_id
+-- GROUP BY p.category;   
     
     
     
