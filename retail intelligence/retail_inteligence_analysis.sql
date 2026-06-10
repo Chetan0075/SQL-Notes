@@ -98,7 +98,7 @@ use retail_intelligence;
 --     ON p.product_id = od.product_id
 -- GROUP BY p.category;   
     
-    
+--     
 -- SELECT 
 --     c.name,
 --     SUM(od.quantity * p.price) AS total_spent
@@ -114,11 +114,45 @@ use retail_intelligence;
     
     
     
+-- CREATE VIEW customer_spending AS
+-- SELECT 
+--     c.customer_id,
+--     c.name,
+--     SUM(od.quantity * p.price) AS total_spent
+-- FROM customers c
+-- JOIN orders o
+--     ON c.customer_id = o.customer_id
+-- JOIN order_details od
+--     ON o.order_id = od.order_id
+-- JOIN products p
+--     ON od.product_id = p.product_id
+-- GROUP BY c.customer_id, c.name;    
+    
+-- SELECT * FROM customer_spending;    
     
     
-    
-    
-    
-    
-    
+-- CREATE VIEW product_sales AS
+-- SELECT
+--     p.product_id,
+--     p.product_name,
+--     SUM(od.quantity) AS total_sold
+-- FROM products p
+-- JOIN order_details od
+--     ON p.product_id = od.product_id
+-- GROUP BY p.product_id, p.product_name;
+
+
+-- select * from product_sales ;   
+
+
+-- CREATE VIEW category_revenue AS
+-- SELECT
+--     p.category,
+--     SUM(od.quantity * p.price) AS revenue
+-- FROM products p
+-- JOIN order_details od
+--     ON p.product_id = od.product_id
+-- GROUP BY p.category;
+
+-- SELECT * FROM category_revenue ;
     
