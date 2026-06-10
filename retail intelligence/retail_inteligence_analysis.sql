@@ -155,4 +155,17 @@ use retail_intelligence;
 -- GROUP BY p.category;
 
 -- SELECT * FROM category_revenue ;
+
+
+-- SHOW FULL TABLES
+-- WHERE TABLE_TYPE = 'VIEW';
+
+-- SHOW CREATE VIEW customer_spending;	
+
+-- DROP VIEW customer_spending;
+
+
+
+
+
     
