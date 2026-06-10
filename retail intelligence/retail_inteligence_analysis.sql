@@ -1,6 +1,4 @@
--- customers (1) → (many) orders (1) → (many) order_details → products
-
--- use retail_intelligence;
+use retail_intelligence;
 
 -- select * from customers;
 -- select name , city from customers ;
@@ -31,27 +29,31 @@
 -- select distinct category from products ;    
     
     
-    
 -- select count(*) as total_customers from customers ;    
 -- select avg(price) as avg_price from products ;     
 -- select min(price) from products ;
 -- select max(price) from products ;
  
  
- 
 -- select count(order_id) from orders ; 
 -- select sum(quantity) from order_details; 
  
 
+-- 	 select customers.customer_id,
+-- 			customers.name,
+-- 			orders.order_id,
+-- 			orders.order_date
+-- 	from customers inner join orders on customers.customer_id = orders.customer_id; 	
+ 
+ 
  
 -- select customers.customer_id,
--- 		customers.name,
---         orders.order_id,
---         orders.order_date
--- from customers inner join orders on customers.customer_id = orders.customer_id; 
-     
- 
-     
+--        customers.name,
+--        orders.order_id,
+--        orders.order_date
+-- from customers inner join orders
+    
+    
 --  SELECT
 --     orders.order_id,
 --     products.product_name,
@@ -59,9 +61,28 @@
 -- FROM orders INNER JOIN order_details
 --     ON orders.order_id = order_details.order_id
 -- INNER JOIN products
---     ON order_details.product_id = products.product_id; 
- 
- 
+--     ON order_details.product_id = products.product_id;   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
