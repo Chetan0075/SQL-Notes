@@ -20,8 +20,54 @@
 
 
 
+-- DELIMITER //
+
+-- CREATE PROCEDURE customer_history(IN cust_id INT)
+-- BEGIN
+
+--     SELECT
+--         o.order_id,
+--         o.order_date,
+--         p.product_name,
+--         od.quantity
+
+--     FROM orders o
+--     JOIN order_details od
+--         ON o.order_id = od.order_id
+--     JOIN products p
+--         ON od.product_id = p.product_id
+
+--     WHERE o.customer_id = cust_id;
+
+-- END //
+
+-- DELIMITER ;
 
 
+-- CALL customer_history(1);
+
+
+
+            
+
+-- DELIMITER //
+
+-- CREATE PROCEDURE product_info(IN pid INT)
+-- BEGIN
+
+--     SELECT
+--         product_name,
+--         category,
+--         price
+--     FROM products
+--     WHERE product_id = pid;
+
+-- END //
+
+-- DELIMITER ;
+
+
+-- CALL product_info(6);
 
 
 
