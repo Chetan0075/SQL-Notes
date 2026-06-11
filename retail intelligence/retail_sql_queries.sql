@@ -76,3 +76,32 @@ use retail_intelligence;
 
 -- update customers set city = UPPER(city);
 -- select city from customers ;
+
+
+-- select name, city, count(*) from customers
+-- group by name, city
+-- having count(*) > 1 ;
+
+
+
+-- alter table customers
+-- add constraint unique_customer
+-- unique(name, city);
+
+-- select * from customers ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
