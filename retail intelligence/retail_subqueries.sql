@@ -51,7 +51,36 @@ use retail_intelligence;
 -- );
 
 
+-- SELECT *
+-- FROM (
+--     SELECT
+--         c.customer_id,
+--         SUM(od.quantity * p.price) AS total_spent
+--     FROM customers c
+--     JOIN orders o ON c.customer_id = o.customer_id
+--     JOIN order_details od ON o.order_id = od.order_id
+--     JOIN products p ON od.product_id = p.product_id
+--     GROUP BY c.customer_id
+-- ) t
+-- WHERE total_spent > 5000;
 
+
+-- WITH customer_totals AS
+-- (
+--     SELECT
+--         c.customer_id,
+--         c.name,
+--         SUM(od.quantity * p.price) AS total_spent
+--     FROM customers c
+--     JOIN orders o ON c.customer_id = o.customer_id
+--     JOIN order_details od ON o.order_id = od.order_id
+--     JOIN products p ON od.product_id = p.product_id
+--     GROUP BY c.customer_id, c.name
+-- )
+
+-- SELECT *
+-- FROM customer_totals
+-- WHERE total_spent > 5000;
 
 
 
