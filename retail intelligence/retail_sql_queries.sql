@@ -1,3 +1,5 @@
+use retail_intelligence;
+
 -- CREATE INDEX idx_orders_customer
 -- ON orders(customer_id);
 
@@ -13,10 +15,6 @@
 
 -- SHOW INDEX FROM orders;
 -- SHOW INDEX FROM order_details;
-
-
-
-
 
 
 
@@ -67,13 +65,14 @@
 -- DELIMITER ;
 
 
--- CALL product_info(6);
+-- INSERT INTO customers
+-- VALUES
+-- (11, '', 'Pune', 'test@gmail.com', '2024-06-01');
 
 
+-- select * from customers where name = '';
+-- delete from customers where name = '';
 
 
-
-
-
-
-
+-- update customers set city = UPPER(city);
+-- select city from customers ;
