@@ -154,3 +154,39 @@ use retail_intelligence;
 -- SELECT *
 -- FROM products
 -- WHERE product_id = 1;
+
+
+-- CREATE TABLE order_audit (
+--     audit_id INT AUTO_INCREMENT PRIMARY KEY,
+--     order_id INT,
+--     action_type VARCHAR(50),
+--     action_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+
+-- DELIMITER //
+
+-- CREATE TRIGGER trg_order_insert
+-- AFTER INSERT ON orders
+-- FOR EACH ROW
+-- BEGIN
+
+--     INSERT INTO order_audit
+--     (
+--         order_id,
+--         action_type
+--     )
+--     VALUES
+--     (
+--         NEW.order_id,
+--         'INSERT'
+--     );
+
+-- END //
+
+-- DELIMITER ;
+
+-- INSERT INTO orders
+-- VALUES
+-- (116,1,'2024-06-01');
+
+-- SELECT * FROM order_audit;
