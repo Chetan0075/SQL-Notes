@@ -91,6 +91,15 @@ use retail_intelligence;
 -- select * from customers ;
 
 
+-- ROW_NUMBER()
+-- 1 2 3 4 5
+
+-- RANK()
+-- 1 2 3 3 5
+
+-- DENSE_RANK()
+-- 1 2 3 3 4
+
 -- SELECT
 --     c.name,
 --     SUM(od.quantity * p.price) AS total_spent,
@@ -105,12 +114,27 @@ use retail_intelligence;
 
 
 
+-- INSERT INTO customers
+-- VALUES
+-- (20,'CRX Test','Latur','crx@test.com','2024-06-01');
 
 
+-- SELECT
+--     c.customer_id,
+--     c.name,
+--     o.order_id
+-- FROM customers c
+-- LEFT JOIN orders o
+-- ON c.customer_id = o.customer_id;
 
-
-
-
+-- SELECT
+--     c.customer_id,
+--     c.name,
+--     c.city,
+--     o.order_id
+-- FROM customers c
+-- LEFT JOIN orders o
+-- ON c.customer_id = o.customer_id;
 
 
 
