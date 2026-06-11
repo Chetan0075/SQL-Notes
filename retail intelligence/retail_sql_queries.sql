@@ -91,6 +91,17 @@ use retail_intelligence;
 -- select * from customers ;
 
 
+-- SELECT
+--     c.name,
+--     SUM(od.quantity * p.price) AS total_spent,
+--     ROW_NUMBER() OVER (
+--         ORDER BY SUM(od.quantity * p.price) DESC
+--     ) AS customer_rank
+-- FROM customers c
+-- JOIN orders o ON c.customer_id = o.customer_id
+-- JOIN order_details od ON o.order_id = od.order_id
+-- JOIN products p ON od.product_id = p.product_id
+-- GROUP BY c.name;
 
 
 
